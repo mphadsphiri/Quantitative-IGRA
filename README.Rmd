@@ -125,3 +125,5 @@ This is a high-level description of the project structure and analysis.
 R scripts are licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Project data is licenced under CC BY 4.0 - see the [DATA_LICENSE](DATA_LICENSE) file for details.
+
+Cite as [![DOI](https://zenodo.org/badge/1197326870.svg)](https://doi.org/10.5281/zenodo.19390526)
