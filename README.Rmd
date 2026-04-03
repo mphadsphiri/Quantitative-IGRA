@@ -15,15 +15,15 @@ The source data are stored in `data/data.rds`. The setup script reads this file,
 
 Key variables used in the analysis include:
 
-- age and age-group summaries
-- sex
-- HIV status & ART status
-- fever history
-- cough ≥2 weeks history
-- previous TB treatment
-- previous household TB contact
-- raw and nil-subtracted TB1, TB2, nil, and mitogen values
-- final QFT-Plus result (QFT-Plus software printout)
+- age and age-group summaries (years)
+- sex (male/female)
+- HIV status (positive/negative) & ART status (yes/no)
+- fever history (yes/no)
+- cough ≥2 weeks history (yes/no)
+- previous TB treatment (yes/no)
+- previous household TB contact (yes/no)
+- raw and nil-subtracted TB1, TB2, nil, and mitogen values (IU/mL)
+- final QFT-Plus result (QFT-Plus software printout) (positive/negative/indeterminate)
 
 The setup code also derives several analysis variables, including TB1/TB2 tube-specific results, TB2-TB1 differential, a binary outcome for a TB2-TB1 differentoal > 0.6 IU/mL, and recalculated QFT-Plus results under alternative hypothetical thresholds.
 
